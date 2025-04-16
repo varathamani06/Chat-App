@@ -1,0 +1,33 @@
+.infochat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #075e54;
+    padding: 10px 15px;
+  }
+  
+  .infochat .leftInnerContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .infochat h3 {
+    color: white;
+  }
+
+  .infochat .onlineIcon {
+    height: 50px;
+    border-radius: 80px;
+  }
+  
+  .RightInnerContainer {
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+  
+  .onlineIcon {
+    margin-right: 5%;
+  }
